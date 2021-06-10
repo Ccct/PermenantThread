@@ -26,6 +26,10 @@
     [self.thread executeTask:^{
         NSLog(@"执行任务 - %@", [NSThread currentThread]);
     }];
+    
+    // AFN 2.X 版本
+    // 串行
+    // 非并发
 }
 
 - (IBAction)stop {
